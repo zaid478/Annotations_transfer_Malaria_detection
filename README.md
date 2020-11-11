@@ -10,13 +10,13 @@ python multiscale_template_1000_100.py --template_folder /path/to/1000x/images -
 
 
 ### Arguments
-template_folder: This should be the folder where the patches of 1000x are stored
-image_folder: This should be the folder where the images (either 400x or 100x) are stored. Keep in mind that 400x images are usually created from video, while for 100x, there is no video used; Direct images should be captured using microscope.
-num_images: The number of images in the folder image_folder
-root_folder: The outer folder in which template_folder and image_folder is resided
+template_folder: This should be the folder where the patches of 1000x are stored <br/>
+image_folder: This should be the folder where the images (either 400x or 100x) are stored. Keep in mind that 400x images are usually created from video, while for 100x, there is no video used; Direct images should be captured using microscope. <br/>
+num_images: The number of images in the folder image_folder <br/>
+root_folder: The outer folder in which template_folder and image_folder is resided <br/>
 
 
 ## Directory structure
-root_folder
-  -- template_folder
-  -- image_folder
+root_folder <br/>
+  -- template_folder <br/>
+  -- image_folder <br/>
